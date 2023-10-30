@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Mainpage from './Mainpage.jsx'
+import Mainpage from './components/Mainpage';
 
 const App = () => <Mainpage />;
 

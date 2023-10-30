@@ -1,12 +1,10 @@
-import Navigation from './Navigation.jsx';
+import Navigation from './Navigation';
 
-function Mainpage() {
+export default function Mainpage() {
     return (
         <div> 
-            <Navigation currentPage={'Mainpage'} handlePageChange={null} />
+            {/* <Navigation currentPage={'Mainpage'} handlePageChange={null} /> */}
             <p>Hello World!</p>
         </div>
     );
 }
-
-export default Mainpage;
