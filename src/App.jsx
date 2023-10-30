@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
+import Mainpage from './Mainpage.jsx'
 
-function App() {
-
-}
+const App = () => <Mainpage />;
 
 export default App;
