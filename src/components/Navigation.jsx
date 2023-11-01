@@ -1,9 +1,38 @@
 // TODO: Add a comment explaining how we are able to extract the key value pairs from props
 
+const pages = ['About', 'Portfolio', 'Contact', 'Resume']
+
+const pageMap = pages.map((page) => {
+  <li className="nav-item">
+        <a
+          href={`#${page}`}
+          onClick={() => handlePageChange({page})}
+          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+
+          className={currentPage === `${page}` ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </a>
+      </li>
+})
+
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      {pages.map((page) => {
+  <li className="nav-item">
+        <a
+          href={`#${page}`}
+          onClick={() => handlePageChange({page})}
+          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+
+          className={currentPage === `${page}` ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </a>
+      </li>
+})}
+      {/* <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -46,7 +75,7 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }
