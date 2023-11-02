@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import About from './components/pages/about';
+import Portfolio from './components/pages/portfolio';
+import Contact from './components/pages/contact';
 import Resume from './components/pages/resume';
 
 function App() {
@@ -10,9 +12,14 @@ function App() {
         if (currentPage === 'About'){
             return <About />
         }
-        if (currentPage === 'Resume'){
-            return <Resume />
+        if (currentPage === 'Portfolio'){
+            return <Portfolio />
         }
+        if (currentPage === 'Contact'){
+            return <Contact />
+        }
+        return <Resume />
+
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
