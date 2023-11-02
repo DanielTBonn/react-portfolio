@@ -9,8 +9,6 @@ function Navigation({ currentPage, handlePageChange }) {
               <a
                 href={`#${page}`}
                 onClick={() => handlePageChange(page)}
-                //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
                 className={currentPage === page ? 'nav-link active' : 'nav-link'}
               >
                 {page}
