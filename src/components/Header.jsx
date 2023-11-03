@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 export default function Header({currentPage, handlePageChange}) {
     return (
         <header>
-            <h1 className="fullname">Daniel Bonn</h1>
+            <p className="text-3xl font-bold underline fullname">Daniel Bonn</p>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </header>
     );
