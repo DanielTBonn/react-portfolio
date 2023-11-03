@@ -5,7 +5,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       {pages.map((page) => (
-        <li className="nav-item">
+        <li className="nav-item" key={page}>
               <a
                 href={`#${page}`}
                 onClick={() => handlePageChange(page)}
