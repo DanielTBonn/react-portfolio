@@ -3,9 +3,9 @@ function Navigation({ currentPage, handlePageChange }) {
   const pages = ['About', 'Portfolio', 'Contact', 'Resume']
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs flex mr-5">
       {pages.map((page) => (
-        <li className="nav-item" key={page}>
+        <li className="nav-item mx-3" key={page}>
               <a
                 href={`#${page}`}
                 onClick={() => handlePageChange(page)}
