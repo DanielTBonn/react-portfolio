@@ -9,9 +9,6 @@ export default function Footer() {
             <ul className="flex justify-around m-5">
                 <li className="footer-icon mx-5">
                     <a href="https://github.com/DanielTBonn" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
-                    {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
-                    {/* <FontAwesomeIcon icon={solid("github")} /> */}
-                    {/* <FontAwesomeIcon icon={faGithub} /> */}
                 </li>
                 <li className="footer-icon mx-5">
                     <a href="https://www.linkedin.com/in/daniel-bonn-352166189" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>

@@ -1,10 +1,10 @@
 export default function About() {
     return (
         <div className="m-5 p-5 about-section ">
-            <h2 className="font-bold text-2xl about-header">About Me Header</h2>
-            <div className="about-body grid grid-cols-3 gap-5">
+            <h2 className="font-bold text-3xl about-header mx-auto max-w-6xl mb-10">About Me</h2>
+            <div className="about-body grid grid-cols-3 gap-5 mx-auto max-w-5xl">
                 <div className="col-span-1 max-w-lg">
-                    <img src="/public/assets/images/mountainpfp.jpeg"></img> 
+                    <img src="/assets/images/mountainpfp.jpeg"></img> 
                 </div>
                 <div className="text-lg col-span-2">
                     <p className="about-p my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra diam sit. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. At erat pellentesque adipiscing commodo elit at imperdiet dui. Nec ultrices dui sapien eget. Pretium lectus quam id leo in vitae turpis massa. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Ultricies leo integer malesuada nunc vel risus. Sit amet consectetur adipiscing elit ut aliquam. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Id aliquet lectus proin nibh nisl condimentum. Libero nunc consequat interdum varius. Enim lobortis scelerisque fermentum dui faucibus in ornare.</p>

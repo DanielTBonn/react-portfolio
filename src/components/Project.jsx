@@ -1,23 +1,23 @@
 export default function Project() {
     const projects = [
     { 
-        image: '/public/assets/images/techstop-website.png',
+        image: '/assets/images/techstop-website.png',
         link: 'https://github.com/DanielTBonn/techstop-ecommerce'
     }, 
     {
-        image: '/public/assets/images/MVC-tech-blog.png',
+        image: '/assets/images/MVC-tech-blog.png',
         link: 'https://github.com/DanielTBonn/tech-blog'
     }, 
     { 
-        image: '/public/assets/images/employee-tracker-pic.png',
+        image: '/assets/images/employee-tracker-pic.png',
         link: 'https://github.com/DanielTBonn/employee-tracker'
     }, 
     { 
-        image: '/public/assets/images/weather-application-pic.png',
+        image: '/assets/images/weather-application-pic.png',
         link: 'https://github.com/DanielTBonn/weather-application'
     }, 
     { 
-        image: '/public/assets/images/joke-gen-webpage.png',
+        image: '/assets/images/joke-gen-webpage.png',
         link: 'https://github.com/DanielTBonn/joke-generator'
     }
 ]
