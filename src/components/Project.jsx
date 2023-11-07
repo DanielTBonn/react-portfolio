@@ -33,7 +33,7 @@ export default function Project() {
 ]
 
     return ( 
-        <div className="project-item mx-auto max-w-5xl">
+        <div className="project-item mx-auto max-w-5xl mt-10">
             <div className="project-container grid grid-cols-2 grid-rows-3 gap-5">
                 {projects.map((project) => (
                 <div className="project-image" key={project.name}>
