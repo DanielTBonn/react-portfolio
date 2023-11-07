@@ -8,7 +8,10 @@ export default function Contact() {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const [input, setInput] = useState(true);
+  const [inputEmail, setInputEmail] = useState(false);
+  const [inputName, setInputName] = useState(false);
+  const [inputMessage, setInputMessage] = useState(false);
+
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -20,30 +23,37 @@ export default function Contact() {
     // Based on the input type, we set the state of either email, username, and password
     if (inputType === 'email') {
       setEmail(inputValue);
-      setInputType(inputType);
 
     } else if (inputType === 'name') {
       setName(inputValue);
-      setInputType(inputType);
 
     } else {
       setMessage(inputValue);
-      setInputType(inputType);
     }
   };
 
-  const handleFocus = (e) => {
-    const { target } = e;
-    console.log(e)
-    const inputType = target.name;
-    const inputValue = target.value;
-    if (inputType === 'email') {
-      setEmail(inputValue);
-      setInput(true);
-    } else {
-      setInput(false)
-    }
+  const blurredEmail = () => {
+    setInputEmail(true)
+  }
 
+  const focusedEmail = () => {
+    setInputEmail(false)
+  }
+
+  const blurredName = () => {
+    setInputName(true)
+  }
+
+  const focusedName = () => {
+    setInputName(false)
+  }
+
+  const blurredMessage = () => {
+    setInputMessage(true)
+  }
+
+  const focusedMessage = () => {
+    setInputMessage(false)
   }
 
   const handleFormSubmit = (e) => {
@@ -89,11 +99,12 @@ export default function Contact() {
               onChange={handleInputChange}
               type="email"
               placeholder="email"
-              onblur={handleFocus}
+              onFocus={focusedEmail}
+              onBlur={blurredEmail}
               className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               required
               />
-              {!email && input &&  (
+              {!email && inputEmail &&  (
                 <div>
                   <p>This field is required</p>
                 </div>
@@ -111,9 +122,16 @@ export default function Contact() {
                 onChange={handleInputChange}
                 type="text"
                 placeholder="name"
+                onFocus={focusedName}
+                onBlur={blurredName}
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 required
                 />
+                {!name && inputName &&  (
+                <div>
+                  <p>This field is required</p>
+                </div>
+              )}
               </div>
           </div>
         <div className="sm:col-span-2">
@@ -129,9 +147,16 @@ export default function Contact() {
               type="text"
               placeholder="Leave a message..."
               rows={6}
+              onFocus={focusedMessage}
+              onBlur={blurredMessage}
               className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               required
               />
+                {!message && inputMessage &&  (
+                <div>
+                  <p>This field is required</p>
+                </div>
+              )}
             </div>
           </div>
         <button 
