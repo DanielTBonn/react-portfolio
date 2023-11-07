@@ -4,13 +4,20 @@ export default function About() {
             <h2 className="font-bold text-3xl about-header mx-auto max-w-6xl mb-10">About Me</h2>
             <div className="about-body grid grid-cols-3 gap-5 mx-auto max-w-5xl">
                 <div className="col-span-1 max-w-lg">
-                    <img src="/assets/images/mountainpfp.jpeg"></img> 
+                    <img src="/assets/images/mountainpfp.jpeg" className="rounded-xl"></img> 
                 </div>
                 <div className="text-lg col-span-2">
-                    <p className="about-p my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra diam sit. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. At erat pellentesque adipiscing commodo elit at imperdiet dui. Nec ultrices dui sapien eget. Pretium lectus quam id leo in vitae turpis massa. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Ultricies leo integer malesuada nunc vel risus. Sit amet consectetur adipiscing elit ut aliquam. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Id aliquet lectus proin nibh nisl condimentum. Libero nunc consequat interdum varius. Enim lobortis scelerisque fermentum dui faucibus in ornare.</p>
-                    <p className="about-p">Dui vivamus arcu felis bibendum ut tristique et egestas quis. Diam vel quam elementum pulvinar etiam non quam. Pellentesque massa placerat duis ultricies. Sollicitudin tempor id eu nisl nunc. Scelerisque purus semper eget duis at. Eget velit aliquet sagittis id. Augue interdum velit euismod in pellentesque massa placerat. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Diam quam nulla porttitor massa id neque aliquam vestibulum. Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi. Vitae elementum curabitur vitae nunc sed velit. Integer eget aliquet nibh praesent tristique magna sit amet purus.</p>    
+                    <p className="about-p grid-flow-row">
+                        I graduated from UT Austin majoring in Physics and minoring in Economics. Afterwards, I spent some time working on a risk management team in the oil and gas industry where i gained exposure to data science and discovered the power of programming. I started out small creating web scrapping programs and simple compiling programs for excel spread sheets and pdfs using R and Python. As I learned more my curiosity grew and led me to expanding my skillset and general computer science knowledge. I now have a solid foundation in data structures and algorithms as well as a passion for building fun and interesting projects that may improve my efficiency, or solve some type of problem.
+                    </p>
+                </div>
+                <div className="text-lg col-span-3">
+                    <p className="about-p">
+                        I was drawn to web development since its a great way to work on complex problems, express creativity, and get familiar with some of the most exciting cutting edge technology used in today's industry. As an aspiring full stack developer, I intend to leverage my ability to problem solve for backend development, and utilize current technologies as well as a discerning eye for creating a user friendly frontend environment. Please take a look at some of the latest projects that I've been working in the portfolio section.
+                    </p>
                 </div>
             </div>
         </div>
     );
 }
+
