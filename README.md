@@ -19,7 +19,7 @@ Navigate to this repository and clone it into a local directory.
   
 At the command line, use the command npm i to install dependencies and npm run start to start the react application.
 
-![react-portfolio-image]('/assets/images/react-portfolio.png')
+![react-portfolio-image]('./assets/images/react-portfolio.png')
 
 ## Contribute
   
