@@ -9,7 +9,7 @@ function Navigation({ currentPage, handlePageChange }) {
               <a
                 href={`#${page}`}
                 onClick={() => handlePageChange(page)}
-                className={currentPage === page ? 'nav-link active' : 'nav-link'}
+                className={`${currentPage === page ? 'nav-link active' : 'nav-link'} hover:text-slate-500`}
               >
                 {page}
               </a>
