@@ -1,4 +1,4 @@
-const softwareSkills = ["Javascript", "Python", "React", "Express", "Node", "MongoDB", "SQL", "Progressive Web Apps", "Bootstrap", "Tailwinds", "HTML", "CSS", ]
+const softwareSkills = ["Javascript", "Python", "React", "Express", "Node", "MongoDB", "SQL", "Progressive Web Apps", "GraphQL", "Bootstrap", "Tailwinds", "HTML", "CSS", ]
 const mathSkills = ['Probability and Statistics', 'Calculus', 'Linear Algebra', 'Matrixes and Matricies']
 export default function Resume() {
     return (

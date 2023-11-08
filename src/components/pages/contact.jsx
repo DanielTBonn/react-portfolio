@@ -16,7 +16,6 @@ export default function Contact() {
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { target } = e;
-    console.log(e)
     const inputType = target.name;
     const inputValue = target.value;
 
@@ -74,10 +73,6 @@ export default function Contact() {
     setEmail('');
     alert(`Thank you for the message ${name}`)
   };
-
-  useEffect((e) => {
-
-  })
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
