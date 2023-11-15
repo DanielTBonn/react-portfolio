@@ -36,5 +36,3 @@ export const projects = [
         deployed: 'https://danieltbonn.github.io/joke-generator/'
     }
 ]
-
-// module.exports = projects;
