@@ -1,5 +1,11 @@
 export const projects = [
     {   
+        name: 'collectconnect',
+        image: '/assets/images/collectconnect.png',
+        link: 'https://github.com/DanielTBonn/collectors-connect',
+        deployed: 'https://boiling-anchorage-11027-d19406c04dfb.herokuapp.com/'
+    }, 
+    {   
         name: 'techstop',
         image: '/assets/images/techstop-website.png',
         link: 'https://github.com/DanielTBonn/techstop-ecommerce',
