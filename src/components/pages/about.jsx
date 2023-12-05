@@ -8,18 +8,24 @@ export default function About() {
                 </div>
                 <div className="text-lg col-span-2">
                     <p className="about-p grid-flow-row">
-                        I graduated from UT Austin majoring in Physics and minoring in Economics. 
-                        Afterwards, I spent some time working on a risk management team in the oil and gas industry where i gained exposure to data science and discovered the power of programming. 
-                        I started out small creating web scrapping programs and simple compiling programs for excel spread sheets and pdfs using R and Python. 
-                        As I learned more my curiosity grew and led me to expanding my skillset and general computer science knowledge. 
-                        I now have a solid foundation in data structures and algorithms as well as a passion for building fun and interesting projects that may improve my efficiency, or solve some type of problem.
+                        As both a University of Texas at Austin alumni of Physics and recent graduate of their full stack bootcamp I have built up a strong foundation in my ability to reason and a large skillset tailored to modern web development.
+                        With 2 years of prior experience learning computer science on my own, the knowledge I acquired helped me to create robust and fully functional web applications. Curiousity drives me to seek answers while
+                        tinkering with features and development, and my attention to detail compels me to organize my code to fit SOLID principles. My commitment to the full stack bootcamp not only allowed me to maintain perfect grades, but also grow as a 
+                        leader and a team player during group projects.
                     </p>
                 </div>
                 <div className="text-lg col-span-3">
                     <p className="about-p">
-                        I was drawn to web development since its a great way to work on complex problems, express creativity, and get familiar with some of the most exciting cutting edge technology used in today's industry. 
-                        As an aspiring full stack developer, I intend to leverage my ability to problem solve for backend development, and utilize current technologies as well as a discerning eye for creating a user friendly frontend environment. 
-                        Please take a look at some of the latest projects that I've been working in the portfolio section.
+                        My history with programming drew me to web development since its a great way to work on complex problems, express creativity, and get familiar with some of the most exciting cutting edge technology used in today's industry. 
+                        A passion for computer science makes backend development seems like a great way to build that knowledge while learning the architecture that props up the server side. Frontend development is also incredibly rewarding, being able to design and
+                        then see your vision come to life on the screen inspires motivation for the builder in me.
+                        My journey to becoming a full fledge developer has been an exciting experience, filled with the newest tools and technologies, and
+                        guided by some of the best mentors out there. I am eager to share my work, please take a look at some of my latest projects in the portfolio section. 
+                    </p>
+                </div>
+                <div>
+                    <p>
+
                     </p>
                 </div>
             </div>
